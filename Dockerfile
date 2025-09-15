@@ -5,7 +5,9 @@ LABEL maintainer="GitHub Copilot"
 # Environment variables
 ENV MINECRAFT_VERSION=1.21.8
 ENV MINECRAFT_JAR=minecraft_server.${MINECRAFT_VERSION}.jar
-ENV MINECRAFT_URL=https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
+# 1.20.4
+#ENV MINECRAFT_URL=https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
+ENV MINECRAFT_URL=https://piston-data.mojang.com/v1/objects/592535d9bcdb38db40da2d0033ce8494d1ef50d9/server.jar
 ENV MINECRAFT_HOME=/data
 ENV JAVA_MEMORY=1G
 
